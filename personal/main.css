@@ -1,0 +1,91 @@
+.Mets img{
+    width: 800px;
+}
+
+.heading06 {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.heading06 span {
+	position: relative;
+	z-index: 2;
+}
+
+.heading06::before {
+	content: attr(data-en);
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(224,66,114,0.2);
+	font-size: 80px;
+	font-style: italic;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+h2 {
+    color: #696969;
+}
+.Mets {
+	text-align: center;
+}
+
+.mets,.time,.weight,.kcal  {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 20px;
+    color: #696969;
+}
+
+.calcu {
+    font-size: 90%;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 10px;
+	color: #696969;
+	border: 3px solid #696969;
+	box-shadow: 5px 5px #696969;
+	transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.calcu:hover {
+    box-shadow: none;
+	transform: translate(5px, 5px);
+	color: #696969;
+}
+
+.reset {
+    font-size: 90%;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border-radius: 10px;
+	color: #696969;
+	border: 3px solid #696969;
+	box-shadow: 5px 5px #696969;
+	transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.reset:hover {
+    box-shadow: none;
+	transform: translate(5px, 5px);
+	color: #696969;
+}
